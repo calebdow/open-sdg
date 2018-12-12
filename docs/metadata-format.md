@@ -44,9 +44,9 @@ Source 1: Link to data source text RECOMMENDED
 
 The rest are optional fields (incl. data sources 2-6)
 
-# Metadata Groups
+# Metadata groups
 
-## National Metadata
+## National metadata
 
 | Tag                                 | Description                  |
 |-------------------------------------|------------------------------|
@@ -62,7 +62,7 @@ The rest are optional fields (incl. data sources 2-6)
 | comments_limitations                | Comments and limitations     |
 | admin_contact_details               | Contact details              |
 
-## Method of Computation Metadata
+## Method of vomputation metadata
 
 | Tag                                  | Description      |
 |--------------------------------------|------------------|
@@ -71,7 +71,7 @@ The rest are optional fields (incl. data sources 2-6)
 | computation_numerator                | Numerator        |
 | computation_denominator              | Denominator      |
 
-## Global Metadata
+## Global metadata
 
 | Tag                                 | Description                         |
 |-------------------------------------|-------------------------------------|
@@ -85,7 +85,7 @@ The rest are optional fields (incl. data sources 2-6)
 | goal_meta_link                      | Link to UN metadata                 |
 | goal_meta_link_text                 | The text to show instead of the URL |
 
-## Data Sources Metadata
+## Data sources metadata
 
 These metadata tags for the sources are available for 3 separate sources at the moment (replace the `#` with a 1, 2 or 3).
 
@@ -104,7 +104,7 @@ These metadata tags for the sources are available for 3 separate sources at the 
 | source_contact_#                    | Contact details                                                                       |
 | source_other_info_#                 | Other information                                                                     |
 
-## Data Info
+## Data info
 
 These are not displayed on the website but affect how it is laid out.
 
@@ -113,7 +113,7 @@ These are not displayed on the website but affect how it is laid out.
 | reporting_status                    | One of `notstarted` (red), `inprogress` (amber), or `complete` (green). |
 | data_non_statistical                | `true` or `false` flag. Non-statistical data does not have csv or graphs. |
 
-## Graph Metadata
+## Graph metadata
 
 Some additional tags are available for the graphs, including the graph type and the graph title. Currently only longitudinal graphs are available but more are planned. These tags are experimental. Graph tags do not show up on the web page as metadata; we will use them in the future for setting how a graphic should render, some extra labels etc.
 
@@ -122,8 +122,8 @@ Some additional tags are available for the graphs, including the graph type and 
 | graph_type                          | One of `line` or `bar`     |
 | graph_title                         | The title to be shown on the graph |
 
-# Non-Standard Information
+# Non-standard information
 
-In the Prose editor, you can add free Markdown text in the same file as the metadata. This is the `edit` section in prose and is part of the metadata. In the raw .md file this is the content underneath the yaml header. You can add any content you like in this section and the content will be converted to html and placed above the graph near the top of the screen.
+In the Prose editor, you can add free Markdown text in the same file as the metadata. This is the `edit` section in Prose and is part of the metadata. In the raw .md file this is the content underneath the yaml header. You can add any content you like in this section and the content will be converted to html and placed above the graph near the top of the screen.
 
 A guide to writing [Markdown is here](https://guides.github.com/features/mastering-markdown/) and you can write your own tables, lists, links, headings, and so on. This is a useful place to add information about an indicator that doesn't fit in with the rest of the metadata.
