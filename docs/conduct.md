@@ -1,6 +1,6 @@
 <h1>Code of Conduct</h1>
 
-## Our Pledge
+## Our pledge
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to making participation in our project and
@@ -9,9 +9,9 @@ size, disability, ethnicity, sex characteristics, gender identity and expression
 level of experience, education, socio-economic status, nationality, personal
 appearance, race, religion, or sexual identity and orientation.
 
-## Our Standards
+## Our standards
 
-Examples of behavior that contributes to creating a positive environment
+Examples of behavior that contribute to creating a positive environment
 include:
 
 * Using welcoming and inclusive language
@@ -31,7 +31,7 @@ address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
 professional setting
 
-## Our Responsibilities
+## Our responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
