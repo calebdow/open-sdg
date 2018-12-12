@@ -2,7 +2,7 @@
 
 ## Run-time vs. Build-time
 
-This platform compiles to a static web site, which means that it can be deployed to any host that can serve files (most notably Github's free "Github Pages" offering). At run-time, it requires no server-side technologies.
+This platform compiles to a static website, which means that it can be deployed to any host that can serve files (most notably Github's free "GitHub Pages" offering). At run-time, it requires no server-side technologies.
 
 That said, the platform does require some server-side technologies to *build* the site. At build-time, this platform requires Python and Ruby.
 
@@ -15,13 +15,13 @@ The easiest way to perform these builds is to use a free automation service like
 
 ## Hosting providers
 
-Once the platform has been built, it simply needs to be uploaded to a hosting provider. Github's free "Github Pages" offering is the easiest host to use, since it only requires committing the built files to a certain Git branch. This documentation will assume the use of Github Pages as a host.
+Once the platform has been built, it simply needs to be uploaded to a hosting provider. GitHub's free "GitHub Pages" offering is the easiest host to use, since it only requires committing the built files to a certain Git branch. This documentation will assume the use of GitHub Pages as a host.
 
-However, alternatives are easy - after all, it's merely uploading files.
+However, alternatives are easy — after all, it's merely uploading files.
 
 ## Staging vs Production
 
-It is helpful to have both a "staging" and "production" version of the site, in order to preview changes (staging) before they are presented to the public (production). If using Github Pages as a host, the simplest way to do this to create a second Github account specifically for the purpose of hosting the production site.
+It is helpful to have both a "staging" and "production" version of the site, in order to preview changes (staging) before they are presented to the public (production). If using GitHub Pages as a host, the simplest way to do this to create a second GitHub account specifically for the purpose of hosting the production site.
 
 ## Deployment overview for the two repositories
 
